@@ -63,6 +63,8 @@ class Example extends Component {
 
   render() {
     const { activeIndex } = this.state;
+    const carouselStyles = { paddingTop: "30px", paddingBottom: "30px" };
+
 
     const slides = items.map((item) => {
       return (
@@ -78,7 +80,9 @@ class Example extends Component {
     });
 
     return (
+      <div style={carouselStyles}>
       <Carousel
+        
         activeIndex={activeIndex}
         next={this.next}
         previous={this.previous}
@@ -88,6 +92,8 @@ class Example extends Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
+      </div>
+      
     );
   }
 }
