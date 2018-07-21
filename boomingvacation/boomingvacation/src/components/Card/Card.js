@@ -4,6 +4,8 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
 
  import bv1 from './BV1.jpg';
  import bv2 from './BV2.jpg';
+ import bv3 from './BV3.jpg';
+ import bv4 from './BV4.jpg';
  
 
 const cardStyles = { paddingBottom: "30px" };
@@ -15,38 +17,61 @@ const Example = (props) => {
       <Card>
         <CardImg top width="100%" src={bv1} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+          <CardTitle>Romeo Drive</CardTitle>
+          <CardSubtitle>Family vacation done right!</CardSubtitle>
+          <CardText>This luxurious 4 bedroom home accommodates 10 and features its very own private pool 
+            for relaxing in the Florida sunshine. Located in the Storey Lake Resort in Kissimmee FL, 
+            this community offers a fitness center, a splash park, a lazy river, a sports court and even a 
+            dock where kayak rentals are available for guests throughout their stay. Theme parks such as 
+            Universal Studios, Volcano Bay and Disney World are just a 20-25 minute drive.</CardText>
+          <CardTitle color="danger">Starting at $129 a night</CardTitle>
           <Button color="primary">Book Now</Button>
         </CardBody>
       </Card>
       <Card>
         <CardImg top width="100%" src={bv2} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Storey Lake</CardTitle>
+          <CardTitle>Windermere 23</CardTitle>
           <CardSubtitle>5 Ensuites</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <CardText>This beautiful and modern 4 bedroom home accommodates 8 people and features its very 
+            own private pool which is great for relaxing in the Florida sunshine. Located in the Storey 
+            Lake Resort in Kissimmee FL, this gated community offers a fitness center, a splash park, a 
+            lazy river, a sports court and even a lakeside dock where kayak rentals are available for 
+            guests throughout their stay. Theme parks such as Universal Studios, Volcano Bay and Disney 
+            World are just a 20 minute drive.</CardText>
+          <CardTitle color="danger">Starting at $149 a night</CardTitle>
           <Button color="primary">Book Now</Button>
           
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src={bv3} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Windermere 24</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <CardText>This beautiful and modern 4 bedroom home accommodates 8 people and features its very 
+            own private pool which is great for relaxing in the Florida sunshine. Located in the Storey 
+            Lake Resort in Kissimmee FL, this gated community offers a fitness center, a splash park, a 
+            lazy river, a sports court and even a lakeside dock where kayak rentals are available for 
+            guests throughout their stay. Theme parks such as Universal Studios, Volcano Bay and Disney 
+            World are just a 20 minute drive.</CardText>
+          <CardTitle color="danger">Starting at $149 a night</CardTitle>
           <Button color="primary">Book Now</Button>
           
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="100%" src={bv4} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Windermere 26</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <CardText>This beautiful and modern 4 bedroom home accommodates 8 people and features its very 
+            own private pool which is great for relaxing in the Florida sunshine. Located in the Storey 
+            Lake Resort in Kissimmee FL, this gated community offers a fitness center, a splash park, a 
+            lazy river, a sports court and even a lakeside dock where kayak rentals are available for 
+            guests throughout their stay. Theme parks such as Universal Studios, Volcano Bay and Disney 
+            World are just a 20 minute drive.</CardText>
+          <CardTitle color="danger">Starting at $149 a night</CardTitle>
           <Button color="primary">Book Now</Button>
           
         </CardBody>

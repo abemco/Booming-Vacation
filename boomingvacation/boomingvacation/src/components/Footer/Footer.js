@@ -25,7 +25,7 @@ render () {
                     <div className="col-md-4 col-sm-6">
                         <h3>Say hello:</h3>
                         <ul className="list-unstyled">
-                            <li><p><strong><i className="fa fa-map-marker"></i> Address:</strong> 121 S. Orange Ave Suite 1110 N. Tower Orlando-FL USA 32801</p></li>
+                            <li><p><strong><i className="fa fa-map-marker"></i> Address:</strong> 6258 Castelven Drive, Orlando, FL 32835</p></li>
                             <li><p><strong><i className="fa fa-envelope"></i> Email:</strong> <a href="mailto:boomingvr@gmail.com?subject=Mail from Our Site">boomingvr@gmail.com</a></p></li>
                             <li><p><strong><i className="fa fa-phone"></i> Phone:</strong> +1 (407) 485-4180</p></li>
                         </ul>
