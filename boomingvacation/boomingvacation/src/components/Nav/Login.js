@@ -1,22 +1,19 @@
-import React from 'react';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+app.post('/Login.js', passport.authenticate('local', { successRedirect: '/', failureRedirect: '/Login.js' }));
 
-export default class Example extends React.Component {
-  render() {
-    return (
-      <Form inline>
-        <FormGroup>
-          <Label for="exampleEmail" hidden>Email</Label>
-          <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
-        </FormGroup>
-        {' '}
-        <FormGroup>
-          <Label for="examplePassword" hidden>Password</Label>
-          <Input type="password" name="password" id="examplePassword" placeholder="Password" />
-        </FormGroup>
-        {' '}
-        <Button>Submit</Button>
-      </Form>
-    );
+var passport = require('passport')
+  , LocalStrategy = require('passport-local').Strategy;
+
+passport.use(new LocalStrategy(
+  function(email, password, done) {
+    User.findOne({ username: email }, function (err, user) {
+      if (err) { return done(err); }
+      if (!user) {
+        return done(null, false, { message: 'Incorrect username.' });
+      }
+      if (!user.validPassword(password)) {
+        return done(null, false, { message: 'Incorrect password.' });
+      }
+      return done(null, user);
+    });
   }
-}
+));
