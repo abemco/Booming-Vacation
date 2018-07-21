@@ -14,7 +14,7 @@ import {
 
   import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-  import Login from './Login.js';
+  // import Login from './Login.js';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -33,17 +33,19 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="primary" light expand="md">
-          <NavbarBrand href="/">BoomingVacations</NavbarBrand>
+        <Navbar light expand="md">
+          <NavbarBrand href="/">BOOMING VACATION HOMES</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              
+              {/* <NavItem>
                 <NavLink href="/components/">About Us</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/properties/">Properties</NavLink>
-              </NavItem>
+              </NavItem> */}
+
               {/* <NavItem>
                 <NavLink href="/properties/">{ Login }Login</NavLink>
               </NavItem> */}
@@ -58,7 +60,7 @@ export default class Example extends React.Component {
                 <Input type="password" name="password" id="examplePassword" placeholder="Password" />
               </FormGroup>
               {' '}
-              <Button>Submit</Button>
+              <Button>Login</Button>
             </Form>
               
               {/* <UncontrolledDropdown nav inNavbar>
