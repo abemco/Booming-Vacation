@@ -13,6 +13,7 @@ import {
   DropdownItem } from 'reactstrap';
 
   import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+  import BVlogo from './BVlogo.png';
 
   // import Login from './Login.js';
 
@@ -34,7 +35,7 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar light expand="md">
-          <NavbarBrand href="/">BOOMING VACATION HOMES</NavbarBrand>
+          <NavbarBrand href="/"><img src={BVlogo}></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
