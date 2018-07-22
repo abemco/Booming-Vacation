@@ -12,6 +12,11 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+  import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+  import BVlogo from './BVlogo.png';
+
+  // import Login from './Login.js';
+
 export default class Example extends React.Component {
   constructor(props) {
     super(props);
@@ -29,20 +34,35 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="primary" light expand="md">
-          <NavbarBrand href="/">BoomingVacations</NavbarBrand>
+        <Navbar light expand="md">
+          <NavbarBrand href="/"><img src={BVlogo}></img></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
+              
+              {/* <NavItem>
                 <NavLink href="/components/">About Us</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/properties/">Properties</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/properties/">Login</NavLink>
-              </NavItem>
+              </NavItem> */}
+
+              {/* <NavItem>
+                <NavLink href="/properties/">{ Login }Login</NavLink>
+              </NavItem> */}
+              <Form inline>
+              <FormGroup>
+                <Label for="exampleEmail" hidden>Email</Label>
+                <Input type="email" name="email" id="exampleEmail" placeholder="Email" />
+              </FormGroup>
+              {' '}
+              <FormGroup>
+                <Label for="examplePassword" hidden>Password</Label>
+                <Input type="password" name="password" id="examplePassword" placeholder="Password" />
+              </FormGroup>
+              {' '}
+              <Button>Login</Button>
+            </Form>
               
               {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
