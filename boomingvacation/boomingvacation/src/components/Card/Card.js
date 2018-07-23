@@ -23,13 +23,13 @@ const Example = (props) => {
           <CardText>
 
             <ul>
-              <li type="square">4 bedrooms</li>
-              <li type="square">4 bathrooms</li>
-              <li type="square">12 guests</li>
-              <li type="square">Private Pool</li>
-              <li type="square">Free high speed wifi</li>
-              <li type="square">Fitness center</li>
-              <li type="square">On-site water park</li>
+              <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
+              <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
+              <li><i class="fas fa-users"></i>    12 Guests</li>
+              <li><i class="fas fa-swimmer"></i>    Private Pool</li>
+              <li><i class="fas fa-wifi"></i>    Free High Speed WiFi</li>
+              <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
+              <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
             </ul>
             
             </CardText>
@@ -47,14 +47,14 @@ const Example = (props) => {
           <CardText>
             
           <ul>
-              <li type="square">4 bedrooms</li>
-              <li type="square">4 bathrooms</li>
-              <li type="square">12 guests</li>
-              <li type="square">Private Pool</li>
-              <li type="square">Free high speed wifi</li>
-              <li type="square">Fitness center</li>
-              <li type="square">On-site water park</li>
-            </ul>
+              <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
+              <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
+              <li><i class="fas fa-users"></i>    12 Guests</li>
+              <li><i class="fas fa-swimmer"></i>    Private Pool</li>
+              <li><i class="fas fa-wifi"></i>    Free High Speed WiFi</li>
+              <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
+              <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
+          </ul>
             
             </CardText>
 
@@ -71,14 +71,14 @@ const Example = (props) => {
 
           <CardText>
 
-            <ul>
-              <li type="square">4 bedrooms</li>
-              <li type="square">4 bathrooms</li>
-              <li type="square">12 guests</li>
-              <li type="square">Private Pool</li>
-              <li type="square">Free high speed wifi</li>
-              <li type="square">Fitness center</li>
-              <li type="square">On-site water park</li>
+             <ul>
+              <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
+              <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
+              <li><i class="fas fa-users"></i>    12 Guests</li>
+              <li><i class="fas fa-swimmer"></i>    Private Pool</li>
+              <li><i class="fas fa-wifi"></i>    Free High Speed WiFi</li>
+              <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
+              <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
             </ul>
 
             </CardText>
@@ -97,13 +97,13 @@ const Example = (props) => {
           <CardText>
             
           <ul>
-              <li type="square">4 bedrooms</li>
-              <li type="square">4 bathrooms</li>
-              <li type="square">12 guests</li>
-              <li type="square">Private Pool</li>
-              <li type="square">Free high speed wifi</li>
-              <li type="square">Fitness center</li>
-              <li type="square">On-site water park</li>
+              <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
+              <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
+              <li><i class="fas fa-users"></i>    12 Guests</li>
+              <li><i class="fas fa-swimmer"></i>    Private Pool</li>
+              <li><i class="fas fa-wifi"></i>    Free High Speed WiFi</li>
+              <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
+              <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
             </ul>
             
             </CardText>

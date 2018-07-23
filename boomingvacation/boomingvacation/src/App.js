@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 
 
@@ -17,6 +18,7 @@ class App extends Component {
         <Nav />
         <Carousel /> 
         <Card />
+        <Contact />
         <Footer />
         <p className="App-intro">
           {/* To get started, edit <code>src/App.js</code> and save to reload. */}

@@ -7,6 +7,7 @@ import {
   CarouselCaption
 } from 'reactstrap';
 
+
 import bv5 from './BV5.png';
 import bv9 from './BV9.jpg';
 import bv10 from './BV10.jpg';
@@ -64,7 +65,7 @@ class Example extends Component {
 
   render() {
     const { activeIndex } = this.state;
-    const carouselStyles = { paddingTop: "30px", paddingBottom: "30px" };
+    const carouselStyles = { paddingTop: "30px", paddingBottom: "30px", backgroundColor : "#f6f6f6" };
 
 
     const slides = items.map((item) => {
