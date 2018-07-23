@@ -8,8 +8,8 @@ import {
 } from 'reactstrap';
 
 import bv5 from './BV5.png';
-import bv6 from './BV6.jpg';
-import bv7 from './BV7.jpg';
+import bv9 from './BV9.jpg';
+import bv10 from './BV10.jpg';
 
 const items = [
   {
@@ -17,11 +17,11 @@ const items = [
     altText: 'Slide 1',
   },
   {
-    src: bv6,
+    src: bv9,
     altText: 'Slide 2'
   },
   {
-    src: bv7,
+    src: bv10,
     altText: 'Slide 3',
   }
 ];
