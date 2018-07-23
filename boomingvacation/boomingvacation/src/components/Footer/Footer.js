@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Footer.css';
 
+import BVlogo2 from './BVlogo2.png';
+
 
 class Footer extends React.Component {
 render () {
@@ -11,7 +13,8 @@ render () {
                 
                 <div className="row">
                     <div className="col-md-8 col-sm-6">
-                        <h3>BOOMING VACATION HOMES</h3>
+                        <img src={BVlogo2}></img>
+                        {/* <h3>BOOMING VACATION HOMES</h3> */}
                                 
                         <p>Lorem</p>
 
@@ -23,9 +26,9 @@ render () {
                     </div>
                     
                     <div className="col-md-4 col-sm-6">
-                        <h3>Say hello:</h3>
+                        <h3>Contacts:</h3>
                         <ul className="list-unstyled">
-                            <li><p><strong><i className="fa fa-map-marker"></i> Address:</strong> 6258 Castelven Drive, Orlando, FL 32835</p></li>
+                            <li><p><strong><i className="fa fa-map-marker"></i> Address:</strong> 6258 Castelven Drive, Orlando, FL</p></li>
                             <li><p><strong><i className="fa fa-envelope"></i> Email:</strong> <a href="mailto:boomingvr@gmail.com?subject=Mail from Our Site">boomingvr@gmail.com</a></p></li>
                             <li><p><strong><i className="fa fa-phone"></i> Phone:</strong> +1 (407) 485-4180</p></li>
                         </ul>

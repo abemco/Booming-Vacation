@@ -25,6 +25,7 @@ const Example = (props) => {
             <ul>
               <li type="square">4 bedrooms</li>
               <li type="square">4 bathrooms</li>
+              <li type="square">12 guests</li>
               <li type="square">Private Pool</li>
               <li type="square">Free high speed wifi</li>
               <li type="square">Fitness center</li>
@@ -48,6 +49,7 @@ const Example = (props) => {
           <ul>
               <li type="square">4 bedrooms</li>
               <li type="square">4 bathrooms</li>
+              <li type="square">12 guests</li>
               <li type="square">Private Pool</li>
               <li type="square">Free high speed wifi</li>
               <li type="square">Fitness center</li>
@@ -72,6 +74,7 @@ const Example = (props) => {
             <ul>
               <li type="square">4 bedrooms</li>
               <li type="square">4 bathrooms</li>
+              <li type="square">12 guests</li>
               <li type="square">Private Pool</li>
               <li type="square">Free high speed wifi</li>
               <li type="square">Fitness center</li>
@@ -96,6 +99,7 @@ const Example = (props) => {
           <ul>
               <li type="square">4 bedrooms</li>
               <li type="square">4 bathrooms</li>
+              <li type="square">12 guests</li>
               <li type="square">Private Pool</li>
               <li type="square">Free high speed wifi</li>
               <li type="square">Fitness center</li>
