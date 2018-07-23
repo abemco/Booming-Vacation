@@ -4,11 +4,14 @@ import './Footer.css';
 
 import BVlogo2 from './BVlogo2.png';
 
+const footerStyles = { backgroundColor: "white",
+                       paddingTop: "15px" };
+
 
 class Footer extends React.Component {
 render () {
     return (
-    <div>
+    <div style={footerStyles}>
         <div className="container">
                 
                 <div className="row">
