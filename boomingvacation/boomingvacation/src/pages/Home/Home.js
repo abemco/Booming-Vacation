@@ -10,7 +10,7 @@ const App = () => (
            
             <Carousel />
             <Card />
-            <Contact />
+            {/* <Contact /> */}
             
         </div>
 
