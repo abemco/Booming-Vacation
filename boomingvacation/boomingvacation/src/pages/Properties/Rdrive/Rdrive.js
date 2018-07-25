@@ -13,7 +13,7 @@ class Example extends React.Component {
         return (
         
         <Container>
-            <h3>Rodeo Drive</h3>
+            <h3>Romeo Drive</h3>
             <Row>
                 <Col size="md-3"><img src={rd1}></img></Col>
                 <Col size="md-3"><img src={rd2}></img></Col>
@@ -45,7 +45,7 @@ class Example extends React.Component {
               <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
               <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
             </ul>
-            
+
             </Col>
             </Row>
             </div>
