@@ -8,13 +8,13 @@ import {
 } from 'reactstrap';
 
 
-import bv5 from './BV5.png';
+import bv52 from './BV52.png';
 import bv9 from './BV9.jpg';
 import bv10 from './BV10.jpg';
 
 const items = [
   {
-    src: bv5,
+    src: bv52,
     altText: 'Slide 1',
   },
   {
