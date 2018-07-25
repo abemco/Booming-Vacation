@@ -21,23 +21,23 @@ class Contact extends React.Component {
             <div className="col-md-8 mx-auto">
                 <form>
                     <fieldset className="form-group">
-                        <input type="text" class="form-control form-control-sm" id="name" placeholder="name"></input>
+                        <input type="text" class="form-control form-control-sm" id="name" placeholder="full name" required></input>
                     </fieldset>
 
                     <fieldset className="form-group">
-                        <input type="email" class="form-control form-control-sm" id="email" placeholder="your@email.com"></input>
+                        <input type="email" class="form-control form-control-sm" id="email" placeholder="your@email.com" required></input>
                     </fieldset>
 
                         <fieldset className="form-group">
-                            <input type="text" class="form-control form-control-sm" id="subject" placeholder="subject"></input>
+                            <input type="text" class="form-control form-control-sm" id="subject" placeholder="subject" required></input>
                         </fieldset>
                             
                             
                         <fieldset className="form-group">
-                            <textarea className="form-control form-control-sm" id="message" placeholder="message" rows="3"></textarea>
+                            <textarea className="form-control form-control-sm" id="message" placeholder="message" rows="3" required></textarea>
                         </fieldset>
                                 
-                        <button type="submit" className="btn-contact">SUBMIT</button>
+                        <button type="submit" class="btn btn-outline-info btn-block">SUBMIT</button>
                                 
                             
                 </form>
