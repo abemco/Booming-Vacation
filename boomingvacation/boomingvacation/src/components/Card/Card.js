@@ -2,6 +2,8 @@ import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  CardSubtitle, CardBody } from 'reactstrap';
 
+ import Rdrive from '../../pages/Properties/Rdrive/Rdrive'
+
  import bv1 from './BV1.jpg';
  import bv2 from './BV2.jpg';
  import bv3 from './BV3.jpg';
@@ -35,7 +37,7 @@ const Example = (props) => {
             </CardText>
 
           <CardTitle color="danger">Starting at $129 a night</CardTitle>
-          <Button color="primary">Book Now</Button>
+          <a className="btn btn-primary" href="/properties/1">Book Now</a>
         </CardBody>
       </Card>
       <Card>
