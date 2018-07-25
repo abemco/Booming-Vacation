@@ -50,6 +50,9 @@ export default class Example extends React.Component {
               {/* <NavItem>
                 <NavLink href="/properties/">{ Login }Login</NavLink>
               </NavItem> */}
+
+              
+
               <Form inline>
               <FormGroup>
                 <Label for="exampleEmail" hidden>Email</Label>
@@ -61,7 +64,7 @@ export default class Example extends React.Component {
                 <Input type="password" name="password" id="examplePassword" placeholder="Password" />
               </FormGroup>
               {' '}
-              <Button>Login</Button>
+              <Button color="primary">Login</Button>
             </Form>
               
               {/* <UncontrolledDropdown nav inNavbar>
