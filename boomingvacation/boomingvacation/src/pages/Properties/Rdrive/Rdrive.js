@@ -13,7 +13,7 @@ class Example extends React.Component {
         return (
         
         <Container>
-
+            <h3>Romeo Drive</h3>
             <Row>
                 <Col size="md-3"><img src={rd1}></img></Col>
                 <Col size="md-3"><img src={rd2}></img></Col>
@@ -28,15 +28,25 @@ class Example extends React.Component {
             <Row>
             <Col> 
             
-            Storey Lake Resort is situated in Kissimmee. It features a garden, pool views and free WiFi.
+                <p>Storey Lake Resort is situated in Kissimmee. It features a garden, pool views and free WiFi.
 
-The holiday home is equipped with a satellite flat-screen TV. The kitchen is fitted with a dishwasher and an oven, as well as coffee machine.
+                The holiday home is equipped with a satellite flat-screen TV. The kitchen is fitted with a dishwasher and an oven, as well as coffee machine.
 
-The holiday home offers an outdoor pool. Guests can also relax in the shared lounge area.
+                The holiday home offers an outdoor pool. Guests can also relax in the shared lounge area.
 
-The Villages is 11.2 miles from Storey Lake Resort. The nearest airport is Orlando Sanford International Airport, 35.4 miles from the accommodation. 
+                The Villages is 11.2 miles from Storey Lake Resort. The nearest airport is Orlando Sanford International Airport, 35.4 miles from the accommodation.</p>
+                
+            <ul>
+              <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
+              <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
+              <li><i class="fas fa-users"></i>    12 Guests</li>
+              <li><i class="fas fa-swimmer"></i>    Private Pool</li>
+              <li><i class="fas fa-wifi"></i>    Free High Speed WiFi</li>
+              <li><i class="fas fa-dumbbell"></i>    Fitness Center</li>
+              <li><i class="fas fa-swimming-pool"></i>    On-site Water Park</li>
+            </ul>
 
-             </Col>
+            </Col>
             </Row>
             </div>
 

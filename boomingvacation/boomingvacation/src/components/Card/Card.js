@@ -10,7 +10,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  import bv4 from './BV4.jpg';
  
 
-const cardStyles = { paddingBottom: "30px" };
+const cardStyles = { paddingBottom: "30px", paddingTop: "30px" };
 const Example = (props) => {
   return (
     

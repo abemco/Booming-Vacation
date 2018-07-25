@@ -1,6 +1,7 @@
 import React from 'react';
 
 const contactStyles = { paddingBottom: "30px",
+                        paddingTop: "20px",
                         backgroundColor: "#f6f6f6" };
   
 
