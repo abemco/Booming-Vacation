@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import Properties from "./pages/Properties";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 
 
@@ -23,6 +24,7 @@ const App = () => (
 
       </Router>
     </div>
+   <Contact />
    <Footer />
   </div>
   );
