@@ -61,7 +61,7 @@ const Example = (props) => {
             </CardText>
 
           <CardTitle color="danger">Starting at $149 a night</CardTitle>
-          <Button color="primary">Book Now</Button>
+          <a className="btn btn-primary" href="/properties/1">Book Now</a>
           
         </CardBody>
       </Card>
@@ -86,7 +86,7 @@ const Example = (props) => {
             </CardText>
 
           <CardTitle color="danger">Starting at $149 a night</CardTitle>
-          <Button color="primary">Book Now</Button>
+          <a className="btn btn-primary" href="/properties/1">Book Now</a>
           
         </CardBody>
       </Card>
@@ -111,7 +111,7 @@ const Example = (props) => {
             </CardText>
 
           <CardTitle color="danger">Starting at $149 a night</CardTitle>
-          <Button color="primary">Book Now</Button>
+          <a className="btn btn-primary" href="/properties/1">Book Now</a>
           
         </CardBody>
       </Card>
