@@ -16,8 +16,10 @@ class Example extends React.Component {
         
         <Container>
 
+
             <h3>Windermere 24</h3>
             <br></br>
+
 
             <Row>
                 {/* <Col size="md-3"><img src={w7}></img></Col>
