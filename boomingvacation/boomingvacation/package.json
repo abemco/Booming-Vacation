@@ -9,7 +9,6 @@
   "dependencies": {
     "bootstrap": "^4.1.2",
     "express": "^4.13.4",
-    "gmail-node": "^1.2.0",
     "moment": "^2.22.2",
     "mongojs": "^2.3.0",
     "mongoose": "^5.2.4",

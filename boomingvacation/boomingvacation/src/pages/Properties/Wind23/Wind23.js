@@ -13,7 +13,7 @@ class Example extends React.Component {
         return (
         
         <Container>
-
+            <h3>Windermere 23</h3>
             <Row>
                 {/* <Col size="md-3"><img src={w4}></img></Col>
                 <Col size="md-3"><img src={w5}></img></Col>
