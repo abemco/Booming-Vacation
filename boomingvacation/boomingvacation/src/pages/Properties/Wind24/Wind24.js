@@ -16,6 +16,9 @@ class Example extends React.Component {
         
         <Container>
 
+            <h3>Windermere 24</h3>
+            <br></br>
+
             <Row>
                 {/* <Col size="md-3"><img src={w7}></img></Col>
                 <Col size="md-3"><img src={w8}></img></Col>
@@ -37,7 +40,7 @@ class Example extends React.Component {
 
                 The Villages is 11.2 miles from Storey Lake Resort. The nearest airport is Orlando Sanford International Airport, 35.4 miles from the accommodation.</p>
                 
-            <ul>
+            <ul className="text-success">
               <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
               <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
               <li><i class="fas fa-users"></i>    12 Guests</li>

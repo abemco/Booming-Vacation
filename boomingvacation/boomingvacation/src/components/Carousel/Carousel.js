@@ -65,7 +65,7 @@ class Example extends Component {
 
   render() {
     const { activeIndex } = this.state;
-    const carouselStyles = { paddingTop: "30px", paddingBottom: "30px", paddingLeft: "15%", backgroundColor: "#f6f6f6", position: "relative"};
+    const carouselStyles = { paddingTop: "30px", paddingBottom: "30px", paddingLeft: "10%", backgroundColor: "#f6f6f6", position: "relative"};
 
 
     const slides = items.map((item) => {
