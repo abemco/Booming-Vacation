@@ -11,7 +11,7 @@ class Properties extends React.Component {
         <div>
             <Rdrive />
             
-            <Wind23 />
+            
             </div>
 
             
