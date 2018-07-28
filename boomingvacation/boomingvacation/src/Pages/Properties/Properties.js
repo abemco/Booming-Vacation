@@ -12,7 +12,6 @@ class Properties extends React.Component {
         <div>
             <Rdrive />
 
-
             </div>
 
             

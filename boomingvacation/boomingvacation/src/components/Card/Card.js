@@ -11,6 +11,7 @@ import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  
 
 const cardStyles = { paddingBottom: "30px", paddingTop: "30px" };
+const listStyles = { fontColor: "green" };
 const Example = (props) => {
   return (
     
@@ -24,7 +25,7 @@ const Example = (props) => {
 
           <CardText>
 
-            <ul>
+            <ul className="text-success">
               <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
               <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
               <li><i class="fas fa-users"></i>    12 Guests</li>
@@ -48,7 +49,7 @@ const Example = (props) => {
 
           <CardText>
             
-          <ul>
+          <ul className="text-success">
               <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
               <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
               <li><i class="fas fa-users"></i>    12 Guests</li>
@@ -73,7 +74,7 @@ const Example = (props) => {
 
           <CardText>
 
-             <ul>
+             <ul className="text-success">
               <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
               <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
               <li><i class="fas fa-users"></i>    12 Guests</li>
@@ -98,7 +99,7 @@ const Example = (props) => {
 
           <CardText>
             
-          <ul>
+          <ul className="text-success">
               <li><i class="fas fa-bed"></i>    4 Bedrooms</li>
               <li><i class="fas fa-shower"></i>    4 Bathrooms</li>
               <li><i class="fas fa-users"></i>    12 Guests</li>
